@@ -1,0 +1,16 @@
+:root {
+    --acc: #647C64;
+    color-scheme: light;
+    --bg: #F2F2F2;
+    --bg2: #FFFFFF;
+    --fg: #1C1C1C;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --bg: #000000;
+        --bg2: #1C1C1C;
+        --fg: #FFFFFF;
+    }
+}

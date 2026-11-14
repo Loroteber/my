@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "ass"
+msgstr "Ass"
+
+msgid "aka"
+msgstr "Tasha Deyt / Zemleroyka / Matthew"
+
+msgid "bday"
+msgstr "March 24"
+
+msgid "city"
+msgstr "Perm"
+
+msgid "hehim"
+msgstr "he/him"
+
+msgid "banners"
+msgstr "banners"
+
+msgid "aboutme_1"
+msgstr "I'm just a guy who enjoys coding, digging into tech, taking long walks and a lot of sleeping"
+
+msgid "aboutme_2"
+msgstr "or, as my gf describes me — soft, silly and cuddly UwU"
+
+msgid "aboutme_3"
+msgstr "Call me whatever you like and use whatever pronouns you prefer <br>I really don't mind :P"
+
+msgid "aboutme_4"
+msgstr "I also develop random software and websites cuz I enjoy creating things"
+
+msgid "clicktocopy"
+msgstr "click to copy code"

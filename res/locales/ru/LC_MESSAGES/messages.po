@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "ass"
+msgstr "Жопа"
+
+msgid "aka"
+msgstr "Таша Дейт / Землеройка / Матвей"
+
+msgid "bday"
+msgstr "24 марта"
+
+msgid "city"
+msgstr "Пермь"
+
+msgid "hehim"
+msgstr "он/его"
+
+msgid "banners"
+msgstr "баннеры"
+
+msgid "aboutme_1"
+msgstr "Я просто чувак что любит кодить, копаться в технике, долго гулять и многа спать"
+
+msgid "aboutme_2"
+msgstr "или же как меня описывает половинка — мягкий, глупый и тактильный UwU"
+
+msgid "aboutme_3"
+msgstr "Зовите меня как вам угодно и используйте ко мне любые местоимения<br>Мне ряльно всё равно :P"
+
+msgid "aboutme_4"
+msgstr "Также я разрабатываю всякие штучки и софт ибо мне нравится создавать что-либо"
+
+msgid "clicktocopy"
+msgstr "кликните, чтобы скопировать код"

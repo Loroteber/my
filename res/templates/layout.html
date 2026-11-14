@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    {% include "@includeCSS.html" %}
+</head>
+<body>
+    <header>
+        <h1 class="alt">{{ title }}</h1>
+        <div class="right">
+            <a href="/" class="button secondary alt">{{ icons.home }}</a>
+            <a class="button secondary alt">{{ icons.theme }}</a>
+            <a class="button secondary alt">{{ icons.lang }}</a>            
+        </div>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

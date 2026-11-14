@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="color-scheme" content="light dark">
+        <title>Loroteber</title>
+        {% include "@includeCSS.html" %}
+    </head>
+    <body>
+        <header>
+            <h1>Loroteber</h1>
+            <span class="sub-h1">aka {{ _('aka') }}</span>
+            {% if lang == "ru" %}
+                <a href="?l=en" class="button secondary alt">{{ icons.lang }}</a> 
+            {% else %}
+                <a href="?l=ru" class="button secondary alt">{{ icons.lang }}</a> 
+            {% endif %}
+        </header>
+        <div class="row">
+            <div class="card col-2">
+                <div class="header-pills">
+                    <span>{{ _('bday') }}</span>
+                    <span>{{ _('city') }}</span>
+                    <span>{{ _('hehim') }}</span>
+                    <span>sp9</span>
+                    <span>ISFJ</span>
+                </div>
+                <p>
+                    {{ _('aboutme_1') }}
+                </p>
+                <p>
+                    {{ _('aboutme_4') }}
+                </p>
+                <blockquote>
+                    {{ _('aboutme_2') }}
+                </blockquote>
+                <p>
+                    {{ _('aboutme_3') }}
+                </p>
+                <div class="row">
+                    {% for name, link in socials.items() %}
+                        <a href="{{ link }}" class="button">{{ icons[name] }}</a>
+                    {% endfor %}
+                    <a onclick="fakMax(this)" class="button social">{{ icons.max }}</a>
+                </div>
+            </div>
+            <div id="music" class="card col-3">
+                {% include "music.html" %}
+            </div>
+        </div>
+        <h2>{{ _('banners') }}</h2>
+        <div class="row">
+            <div id="my-banner" class="card banners col">            
+                <a title="{{ _('clicktocopy') }}" onclick='navigator.clipboard.writeText("<a href=\"https://loroteber.ru\"><img width=\"88\" height=\"31\" src=\"https://loroteber.ru/static/loroteber.png\" alt=\"loroteber\"></a>")'>
+                    <img width="88" height="31" src="{{ url_for('static', filename='img/loroteber.png') }}" alt="loroteber">
+                </a>
+            </div>
+            <div class="card banners col-2">
+                {% for banner in banners %}
+                    <a href="{{ banner.url }}">
+                        <img width="88" height="31" src="{{ banner.img }}" alt="{{ banner.name }}">
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>

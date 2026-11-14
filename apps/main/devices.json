@@ -1,0 +1,46 @@
+[
+    {
+        "type": "phone",
+        "brand": "Google Pixel",
+        "model": "7a",
+        "color": "Snow",
+        "version": "8/128"
+    },
+    {
+        "type": "phone",
+        "brand": "Xiaomi Redmi",
+        "model": "Note 10 Pro",
+        "color": "Glacier Blue",
+        "version": "8/128"
+    },
+    {
+        "type": "computer",
+        "cpu": "AMD Ryzen 5 1600",
+        "ram": "32GB",
+        "nvme": "256GB",
+        "hdd": "1TB",
+        "gpu": "AMD Radeon RX550",
+        "os": "Windows 10"
+    },
+    {
+        "type": "laptop",
+        "brand": "Lenovo IdeaPad",
+        "model": "80X 320-15IKB",
+        "cpu": "Intel Core i5-7200U",
+        "ram": "8GB",
+        "ssd": "256GB",
+        "hdd": "1TB",
+        "gpu": "Nvidia GeForce 940MX",
+        "os": "Devuan"
+    },
+    {
+        "type": "earbuds",
+        "brand": "Honor Choice",
+        "model": "X5 Pro"
+    },
+    {
+        "type": "watch",
+        "brand": "CMF by Nothing",
+        "model": "Watch Pro 2"
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "main": "/",
+    "test": "/test",
+    "devices": "/devices",
+    "icon": "/favicon.ico"
+}

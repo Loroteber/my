@@ -1,0 +1,54 @@
+.content {
+    max-width: 1000px;
+    width: 100%;
+} 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row .right { margin-left: auto; }
+
+.row > [class^="col"] {
+    box-sizing: border-box;
+    min-width: 250px;
+    flex: 1 1 0;
+}
+
+.col   { flex-grow: 1; }
+.col-2 { flex-grow: 2; }
+.col-3 { flex-grow: 3; }
+.col-4 { flex-grow: 4; }
+.col-5 { flex-grow: 5; }
+
+#music {
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+    width: 250px;
+    max-width: calc(100% - 40px);
+}
+
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: var(--gap);
+}
+
+.header-pills {
+    display: flex;
+    gap: var(--gap);
+    margin: var(--gap) 0 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 422px) {
+    .row .right { margin-left: 0; }
+}
