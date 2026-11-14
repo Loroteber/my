@@ -1,0 +1,25 @@
+{
+    "apps": {
+        "main": {
+            "enabled": true,
+            "root": "/"
+        },
+
+        "knowledgebase": {
+            "enabled": false,
+            "root": "/kb"
+        },
+
+        "service": {
+            "enabled": true,
+            "root": "/service"
+        }
+    },
+
+    "music": {
+        "upd_rate": "60",
+        "token": "no"
+    },
+
+    "url": "http://localhost:5000"
+}
